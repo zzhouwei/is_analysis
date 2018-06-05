@@ -1,60 +1,68 @@
 @startuml
-title »ùÓÚGitHubµÄÊµÑé¹ÜÀíÆ½Ì¨--ÀàÍ¼
+title åŸºäºGitHubçš„å®éªŒç®¡ç†å¹³å°--ç±»å›¾
 class user{
- <b>userID</b> £¨ÓÃ»§ID£©
- name (ÓÃ»§ÕæÊµĞÕÃû)
- githubUsername (githubÓÃ»§Ãû)
- updateDate (githubÓÃ»§Ãû¸üĞÂÈÕÆÚ)
- role (ÓÃ»§½ÇÉ«)
- password (ÓÃ»§ÃÜÂë)
- disable (ÊÇ·ñ½ûÓÃ)
+ <b>userID</b> ï¼ˆç”¨æˆ·IDï¼‰
+ name (ç”¨æˆ·çœŸå®å§“å)
+ githubUsername (githubç”¨æˆ·å)
+ updateDate (githubç”¨æˆ·åæ›´æ–°æ—¥æœŸ)
+ role (ç”¨æˆ·è§’è‰²)
+ password (ç”¨æˆ·å¯†ç )
+ disable (æ˜¯å¦ç¦ç”¨)
 }
 class student{
-<b>stuID</b> (Ñ§ÉúID)
-institute (Ñ§Ôº)
-major (×¨Òµ)
-class (°à¼¶)
-webSum(ÍøÕ¾ÕıÈ·Óë·ñ»ã×Ü)
+<b>stuID</b> (å­¦ç”ŸID)
+institute (å­¦é™¢)
+major (ä¸“ä¸š)
+class (ç­çº§)
+webSum(ç½‘ç«™æ­£ç¡®ä¸å¦æ±‡æ€»)
 
 }
 class teacher{
-<b>teaID</b> (ÀÏÊ¦ID)
-institute (Ñ§Ôº)
-department (²¿ÃÅ)
-zhicheng (½ÌÊ¦Ö°³Æ)
+<b>teaID</b> (è€å¸ˆID)
+institute (å­¦é™¢)
+department (éƒ¨é—¨)
+zhicheng (æ•™å¸ˆèŒç§°)
 }
 class course{
- <b>courseID</b> (¿Î³ÌºÅ)
- courseName(¿Î³ÌÃû³Æ)
- institute(¿Î³ÌËùÊôÑ§Ôº)
- credit(Ñ§·Ö)
- term(¿ªÉèÑ§ÆÚ)
- teacherName(ÈÎ¿Î½ÌÊ¦)
- capacity(¿Î³ÌÈİÁ¿)
+ <b>courseID</b> (è¯¾ç¨‹å·)
+ courseName(è¯¾ç¨‹åç§°)
+ institute(è¯¾ç¨‹æ‰€å±å­¦é™¢)
+ credit(å­¦åˆ†)
+ term(å¼€è®¾å­¦æœŸ)
+ teacherName(ä»»è¯¾æ•™å¸ˆ)
+ capacity(è¯¾ç¨‹å®¹é‡)
 }
 class experiment{
-  courseID(ËùÊô¿Î³ÌID)
-  experimentID(ÊµÑé±àºÅ)
-  experimentName(ÊµÑéÃû³Æ)
-  experimentAim(ÊµÑéÄ¿µÄ)
-  experimentProcess(ÊµÑé²½Öè)
-  experimentDate(ÊµÑéÌá½»ÈÕÆÚ)
+  courseID(æ‰€å±è¯¾ç¨‹ID)
+  experimentID(å®éªŒç¼–å·)
+  experimentName(å®éªŒåç§°)
+  experimentAim(å®éªŒç›®çš„)
+  experimentProcess(å®éªŒæ­¥éª¤)
+  experimentDate(å®éªŒæäº¤æ—¥æœŸ)
+}
+class uploading{
+    experimentID(å®éªŒç¼–å·)
+    courseID(è¯¾ç¨‹ç¼–å·)
+    content(å­¦ç”Ÿä¸Šä¼ çš„å®éªŒå†…å®¹å¤šä¸ºæ–‡ä»¶)
+    date(å­¦ç”Ÿä¸Šä¼ æ—¥æœŸ)
 }
 class grade{
- courseID(¶ÔÓ¦¿Î³ÌID)
- experimnetID(¶ÔÓ¦µÄÊµÑé±àºÅ)
- aGrade(´´ĞÂµÃ·Ö)
- bGrade(Íê³É¶ÈµÃ·Ö)
- cGrade(¹¦ÄÜĞÔµÃ·Ö)
- dGrade(¸´ÔÓ¶ÈµÃ·Ö)
- sGrade(ÊµÑé×Ü·Ö)
- memo(ÆÀ¼Û)
- date(Åú¸ÄÈÕÆÚ)
+ courseID(å¯¹åº”è¯¾ç¨‹ID)
+ experimnetID(å¯¹åº”çš„å®éªŒç¼–å·)
+ aGrade(åˆ›æ–°å¾—åˆ†)
+ bGrade(å®Œæˆåº¦å¾—åˆ†)
+ cGrade(åŠŸèƒ½æ€§å¾—åˆ†)
+ dGrade(å¤æ‚åº¦å¾—åˆ†)
+ sGrade(å®éªŒæ€»åˆ†)
+ memo(è¯„ä»·)
+ date(æ‰¹æ”¹æ—¥æœŸ)
 }
 student "1" -- "n"  course
 teacher "1" -- "n"  course
 course "1" -- "n" experiment
-experiment "1" --"1" grade
+
+experiment "1" --"n" uploading
+uploading "1" --"1" grade
 user <|- student
 user <|-- teacher
 
