@@ -1,0 +1,14 @@
+@startuml
+       title 基于GitHub的实验管理平台--上传实验用例的顺序图
+       actor student
+       student -> course选择指定课程
+       activate course
+       activate student
+       course-> experiment: 指定要上传的实验并上传
+       activate experiment
+       experiment ->student:上传结果信息返回
+       deactivate experiment
+       deactivate student
+       deactivate course
+
+       @enduml

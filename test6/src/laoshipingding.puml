@@ -1,0 +1,12 @@
+@startuml
+       title 基于GitHub的实验管理平台--老师评定实验用例的顺序图
+       actor teacher
+       teacher -> course: 选择指定课程
+        activate course
+        activate teacher
+        course  -> grade:评价打分
+        activate grade
+        deactivate grade
+        deactivate course
+        deactivate teacher
+@enduml

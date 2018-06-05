@@ -1,0 +1,12 @@
+@startuml
+       title 基于GitHub的实验管理平台--老师选课用例的顺序图
+       actor teacher
+       teacher -> course: 选择指定课程直接将老师姓名存储到COURSE表中
+        activate teacher
+        activate course
+        deactivate teacher
+        deactivate course
+
+
+
+       @enduml

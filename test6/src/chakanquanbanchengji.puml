@@ -1,0 +1,21 @@
+@startuml
+       title 基于GitHub的实验管理平台--查看全班成绩用例的顺序图
+       actor student_OR_teacher
+      student_OR_teacher -> course: 选择指定课程
+       activate course
+       activate student_OR_teacher
+
+
+       course -> experiment: 读取每个实验的名称等信息
+
+       activate experiment
+       experiment ->course:返回实验名称等信息
+       deactivate experiment
+       course --> grade:只读取每个实验总成绩
+       activate grade
+       grade --> course:返回每个实验的总成绩
+       deactivate grade
+       course -->student_OR_teacher:返回成绩信息并生成学生列表
+       deactivate course
+       deactivate student_OR_teacher
+       @enduml

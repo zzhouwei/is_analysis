@@ -1,0 +1,11 @@
+@startuml
+        autonumber
+        actor ":教师 / 学生" as ts
+        participant ":USER" as user
+        ts->user:登录
+        activate ts
+        activate user
+        deactivate user
+        deactivate ts
+
+@enduml

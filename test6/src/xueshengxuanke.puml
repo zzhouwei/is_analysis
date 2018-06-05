@@ -1,0 +1,15 @@
+@startuml
+       title 基于GitHub的实验管理平台--学生选课用例的顺序图
+       actor students
+       students -> course: 选择指定课程
+        activate students
+        activate course
+        course  -> student:存储课程号到student表
+        activate student
+        deactivate student
+        deactivate course
+        deactivate students
+
+
+
+       @enduml
