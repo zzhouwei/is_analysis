@@ -36,20 +36,20 @@
 
 - ### [“学生查看个人成绩”用例](./查看个人成绩.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“查看全班成绩”用例](./修改用户信息.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
+- ### [“查看全班成绩”用例](./查看全班成绩.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“学生上传实验”用例](./查看用户信息.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
+- ### [“学生上传实验”用例](./学生上传实验.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ###  [“学生选课”用例](./登出.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
+- ###  [“学生选课”用例](./学生选课.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“查看课程”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
+- ### [“查看课程”用例](./查看课程.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
 
-- ### [“老师发布实验”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
+- ### [“老师发布实验”用例](./老师发布实验.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
     
 
-- ### [“老师评定成绩”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
+- ### [“老师评定成绩”用例](./老师评定成绩.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
     
-- ### [“老师选课”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
+- ### [“老师选课”用例](./老师选课.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
    
 
