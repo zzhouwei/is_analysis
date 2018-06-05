@@ -28,28 +28,28 @@
 
 ## 6. 用例及界面详细设计
 
-- ### [“用户个人信息维护”用例](./个人信息维护.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
+- ### [“用户个人信息维护”用例](./个人信息维护.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“登录”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/评定成绩.html)
+- ### [“登录”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/home.html)
 
-- ### [“登出”用例](./登出.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/查看成绩.html)
+- ### [“登出”用例](./登出.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“学生查看个人成绩”用例](./查看个人成绩.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“学生查看个人成绩”用例](./查看个人成绩.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“查看全班成绩”用例](./用例/修改用户信息.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“查看全班成绩”用例](./用例/修改用户信息.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“学生上传实验”用例](./用例/查看用户信息.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“学生上传实验”用例](./用例/查看用户信息.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ###  [“学生选课”用例](./用例/登出.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ###  [“学生选课”用例](./用例/登出.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
-- ### [“查看课程”用例](./用例/登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/登录.html)
+- ### [“查看课程”用例](./用例/登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
 
-- ### [“老师发布实验”用例](./用例/登录.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/登录.html)
+- ### [“老师发布实验”用例](./用例/登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
     
 
-- ### [“老师评定成绩”用例](./用例/登录.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/登录.html)
+- ### [“老师评定成绩”用例](./用例/登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
     
-- ### [“老师选课”用例](./用例/登录.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/登录.html)
+- ### [“老师选课”用例](./用例/登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_1.html)
    
 
