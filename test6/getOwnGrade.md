@@ -2,7 +2,7 @@
 <!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
 
 # 接口：getOwnGrade  [返回](./README.md)
-用例： [学生查看个人成绩](.查看个人成绩.md)
+用例： [学生查看个人成绩](./查看个人成绩.md)
 
 - 功能：
    返回某个学生某一课程的全部实验成绩
