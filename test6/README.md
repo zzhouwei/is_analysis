@@ -27,7 +27,7 @@
 ### [参见数据库设计](数据库设计.md)
 
 ## 6. 用例及界面详细设计
-### 说明，由于在用Axure设计界面时用的是动态面板，导致在导出网页时多个功能界面的路径都是一样的，如“学生查看成绩”，“学生上传实验”的路径都和“用户个人信息维护”的路径一样，上传后的路径都是“https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html”，烦请老师在批阅的时候手动点击界面上的按钮进行跳转，多有不便，见谅。
+### 说明，由于在用Axure设计界面时用的是动态面板，导致在导出网页时多个功能界面的路径都是一样的，如“学生查看成绩”，“学生上传实验”的路径都和“用户个人信息维护”的路径一样，上传后的路径都是“https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html”，</br>烦请老师在批阅的时候手动点击界面上的按钮进行跳转，多有不便，见谅。
 - ### [“用户个人信息维护”用例](./个人信息维护.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page_2.html)
 
 - ### [“登录”用例](./登录.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/home.html)
