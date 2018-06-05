@@ -1,8 +1,8 @@
 @startuml
         autonumber
-        actor ":教师 / 学生" as ts
+        actor ":鏁欏笀 / 瀛︾敓" as ts
         participant ":USER" as user
-        ts->user:登录
+        ts->user:鐧诲綍
         activate ts
         activate user
         deactivate user
