@@ -28,7 +28,7 @@
 
 ## 6. 用例及界面详细设计
 
-- ### [“用户个人信息维护”用例](./个人信息维护.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/index.html)
+- ### [“用户个人信息维护”用例](./个人信息维护.md),[界面](https://zzhouwei.github.io/is_analysis/test6/ui/page1.html)
 
 - ### [“登录”用例](./登录.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/评定成绩.html)
 
