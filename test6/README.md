@@ -17,10 +17,10 @@
 ![](xtztjg.JPG)
 界面设计参见：https://zzhouwei.github.io/is_analysis/test6/ui/home.html
     
-## 3. 用例图设计 [源码](src/usercase.puml)
+## 3. 用例图设计 [源码](./src/usercase.puml)
 ![](./yonglitu.png)
 
-## 4. 类图设计 [源码](src/class.puml)
+## 4. 类图设计 [源码](./src/leitu.puml)
 ![](./leitu.png)
 
 ## 5. 数据库设计
